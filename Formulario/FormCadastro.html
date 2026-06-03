@@ -1,0 +1,91 @@
+<doctype!>
+    <html>
+          <head>
+            <title>Cadastro</title>
+            <link rel="stylesheet" href="Formulario.css">
+          </head>
+          <body style="background-color: rgb(90, 127, 230);">
+            <div class="h">
+             <h1>Formularios</h1>
+              <a href="Formulario.html">Inicio</a>  |  <a href="FormTimes.html">Times</a>  |  <a href="FormCadastro.html">Cadastro</a>
+              </div>
+              <br>
+              <form action="" autocomplete="on">
+                <label for="Nome">Escreva o seu nome :</label>
+                <input type="text" id="Nome" name="Nome Completo" placeholder="Nome Completo" class="input">
+                 <br><br>
+                  <label for="Idade">Qual a sua idade ?</label><br>
+                  <input type="number" id="Idade" name="Idade" value="0" class="input" min="0" max="101">
+                  <br><br>
+                  <label for="data">Qual a sua data de nascimento?</label><br>
+                  <input type="date" id="data" name="data" class="input">
+                  <br><br>
+                  <label for="email">Digite o seu email:</label>
+                  <input type="email" id="email" name="email" class="input">
+                  <br><br>
+                  <label for="phone">Numero de telefone:</label><br><br>
+                  <input type="tel" id="phone" name="phone" placeholder="(99)99999-9999" required class="input"><br><br>
+                  <br><br>
+                  <label for="week">Selecione a semana da sua viagem:</label>
+                  <input type="week" id="week" name="week" class="input">
+                 <br><br>
+                <label for="Pais">Qual é o país em que voçê mora ?</label>
+                <select name="Pais" id="Pais">
+                  <option value="Argentina">Argentina</option>
+                  <option value="Alemanha">Alemanha</option>
+                  <option value="Brasil">Brasil</option>
+                  <option value="Colombia">Colombia</option>
+                  <option value="Chile">Chile</option>
+                  <option value="Dinamarca">Dinamarca</option>
+                  <option value="EUA">EUA</option>
+                  <option value="Eapanha">Espanha</option>
+                  <option value="França">França</option>
+                  <option value="Holanda">Holanda</option>
+                  <option value="Inglaterra">Inglaterra</option>
+                  <option value="Itália">Itália</option>
+                  <option value="Japão">Japão</option>
+                  <option value="Marrocos">Marrocos</option>
+                  <option value="Nigeria">Nigeria</option>
+                  <option value="Paraguai">Paraguai</option>
+                  <option value="Russia">Russia</option>
+                  <option value="Suiça">Suiça</option>
+                  <option value="Suecia">Suecia</option>
+                  <option value="Servia">Servia</option>
+                </select> /
+                <label for="Pais">Qual é o país do estádio que voçê que visitar ?</label>
+                <select name="Pais" id="Pais" size="4" multiple>
+                  <option value="Argentina">Argentina</option>
+                  <option value="Alemanha">Alemanha</option>
+                  <option value="Brasil">Brasil</option>
+                  <option value="Colombia">Colombia</option>
+                  <option value="Chile">Chile</option>
+                  <option value="Dinamarca">Dinamarca</option>
+                  <option value="EUA">EUA</option>
+                  <option value="Eapanha">Espanha</option>
+                  <option value="França">França</option>
+                  <option value="Holanda">Holanda</option>
+                  <option value="Inglaterra">Inglaterra</option>
+                  <option value="Itália">Itália</option>
+                  <option value="Japão">Japão</option>
+                  <option value="Marrocos">Marrocos</option>
+                  <option value="Nigeria">Nigeria</option>
+                  <option value="Paraguai">Paraguai</option>
+                  <option value="Russia">Russia</option>
+                  <option value="Suiça">Suiça</option>
+                  <option value="Suecia">Suecia</option>
+                  <option value="Servia">Servia</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Enviar" class="input2" onclick="alert('Cadastro Realizado &#128077;')">
+                <input type="reset" value="Apagar" class="input2">
+              </form>
+              <aside class="aside">
+                <br>
+                <h2><a href="FormCadastro.html">Faça já o seu Cadastro <br> e conheça o estadio do seu <br>time de coração</a></h2>
+              </aside>
+              <aside class="aside2">
+                <br>
+                <h2><a href="FormTimes.html">Venha fazer as <br> previsões <br> de titulo do seu time</a></h2>
+              </aside>
+    </body>
+</html>
