@@ -1,0 +1,61 @@
+h1 {
+    text-family: "Times New Roman", Times serif;
+}
+
+body{
+    background-image: url('https://cozinha365.com.br/wp-content/uploads/2025/02/Pudim-de-Leite-Condensado-S.webp')
+}
+
+header {
+    background-color:  #daff07e3;
+    padding: 20px;
+    text-align: center;
+}
+
+.video{
+    background-color:  #56dee7e3;
+    margin: 0 auto;
+    padding: 1%;
+    width: 70%;
+    text-align: center;
+}
+
+.lista{
+    background-color:  #daff07e3;
+    padding: 1%;
+    margin: 40%;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.lista2{
+    background-color:  #daff07e3;
+    padding: 1%;
+    margin: 20%;
+    margin-top: -10px;
+    text-align: center;
+}
+
+.audio{
+    background-color:  #daff07e3;
+    padding: 1%;
+    margin: 40%;
+    margin-top: -750px;
+    text-align: center;
+}
+
+.a {
+    background-color: #56dee7e3;
+    padding: 3%;
+    margin: 20%;
+    margin-top: -17%;
+    text-align: center;
+}
+
+.a2 {
+    background-color: #56dee7e3;
+    padding: 3%;
+    margin: 20%;
+    margin-top: -35%;
+    text-align: center;
+}
